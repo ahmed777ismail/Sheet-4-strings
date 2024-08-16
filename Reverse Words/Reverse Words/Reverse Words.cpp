@@ -1,11 +1,13 @@
 #include <iostream>
+#include <algorithm>
+#include<string>
 using namespace std;
 
 int main()
 {
-    string value;
+	string value;
 	int flag = 0;
-	while (cin>> value)
+	while (cin >> value)
 	{
 		reverse(value.begin(), value.end());
 		if (flag)
@@ -16,4 +18,5 @@ int main()
 		cout << value;
 	}
 }
+
 
